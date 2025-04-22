@@ -11,5 +11,11 @@
         }
     },
     "terminal.integrated.defaultProfile.osx": "WithDevbox",
-    "prettier.prettierPath": ".devbox/nix/profile/default/lib/node_modules/prettier"
+    "prettier.prettierPath": ".devbox/nix/profile/default/lib/node_modules/prettier",
+    // Ruby
+    "[ruby]": {
+        "editor.defaultFormatter": "testdouble.vscode-standard-ruby",
+        "editor.insertSpaces": true,
+        "editor.semanticHighlighting.enabled": true
+    }
 }

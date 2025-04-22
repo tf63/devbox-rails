@@ -7,7 +7,10 @@
         "lefthook@1.11.5",
         "biome@1.9.4",
         "nodePackages.prettier@3.5.3",
-        "commitlint@19.8.0"
+        "commitlint@19.8.0",
+        "ruby@3.4.2",
+        "libyaml.dev",
+        "yarn@1.22.22"
     ],
     "shell": {
         "init_hook": ["lefthook install"],
