@@ -5,6 +5,7 @@
         "esbenp.prettier-vscode",
         "oderwat.indent-rainbow",
         "shopify.ruby-lsp",
-        "testdouble.vscode-standard-ruby"
+        "testdouble.vscode-standard-ruby",
+        "jetpack-io.devbox"
     ]
 }

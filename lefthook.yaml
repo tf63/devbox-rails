@@ -34,7 +34,7 @@ pre-commit:
 post-merge:
     commands:
         devbox:
-            run: devbox install
+            run: devbox install && bundle install
 
 commit-msg:
     commands:
