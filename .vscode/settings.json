@@ -4,13 +4,6 @@
     "editor.tabSize": 4,
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    // "terminal.integrated.profiles.osx": {
-    //     "WithDevbox": {
-    //         "path": "fish",
-    //         "args": ["-c", "devbox shell && fish"]
-    //     }
-    // },
-    // "terminal.integrated.defaultProfile.osx": "WithDevbox",
     "prettier.prettierPath": ".devbox/nix/profile/default/lib/node_modules/prettier",
     // Ruby
     "[ruby]": {

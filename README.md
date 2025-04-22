@@ -1,5 +1,7 @@
 # Rails on Devbox
 
+VSCodeのDevbox拡張機能で`Reopen in Devbox shell`しないとLSPやFormatterが動かなかったので注意
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
