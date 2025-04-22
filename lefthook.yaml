@@ -21,6 +21,16 @@ pre-commit:
                 - merge
                 - rebase
 
+        standardrb:
+            priority: 3
+            glob: '*.{rb,Gemfile}'
+            run: |
+                devbox run standardrb --fix {staged_files}
+            stage_fixed: true
+            skip:
+                - merge
+                - rebase
+
 post-merge:
     commands:
         devbox:

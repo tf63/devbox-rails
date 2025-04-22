@@ -4,18 +4,25 @@
     "editor.tabSize": 4,
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "terminal.integrated.profiles.osx": {
-        "WithDevbox": {
-            "path": "fish",
-            "args": ["-c", "devbox shell && fish"]
-        }
-    },
-    "terminal.integrated.defaultProfile.osx": "WithDevbox",
+    // "terminal.integrated.profiles.osx": {
+    //     "WithDevbox": {
+    //         "path": "fish",
+    //         "args": ["-c", "devbox shell && fish"]
+    //     }
+    // },
+    // "terminal.integrated.defaultProfile.osx": "WithDevbox",
     "prettier.prettierPath": ".devbox/nix/profile/default/lib/node_modules/prettier",
     // Ruby
     "[ruby]": {
         "editor.defaultFormatter": "testdouble.vscode-standard-ruby",
         "editor.insertSpaces": true,
         "editor.semanticHighlighting.enabled": true
-    }
+    },
+    "terminal.integrated.profiles.osx": {
+        "devboxCompatibleShell": {
+            "path": "/opt/homebrew/bin/fish",
+            "args": ["--no-config"]
+        }
+    },
+    "terminal.integrated.defaultProfile.osx": "devboxCompatibleShell"
 }
